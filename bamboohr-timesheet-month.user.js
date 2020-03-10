@@ -20,10 +20,10 @@
    Load BambooHR for the first time with the script and then open this script Storage preferences and edit there.
  */
 const DEFAULT_TEMPLATES = {
-  'default': [{ start: '8:15', end: '13:00' }, { start: '13:20', end: '16:35' }]
+  'default': [{ start: '8:10', end: '13:30' }, { start: '14:00', end: '16:45' }]
 };
 
-const DEFAULT_ENTROPY_MINUTES = 10;
+const DEFAULT_ENTROPY_MINUTES = 15;
 
 const CONTAINER_CLASSLIST = 'TimesheetSummary__clockButtonWrapper';
 const BUTTON_CLASSLIST = 'fab-Button fab-Button--small fab-Button--width100';
